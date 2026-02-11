@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "$1"
+echo "$2"
+
+if [ "$1" -gt "$2" ]; then
+echo "$1 is greter than $2"
+else  [ "$2" -gt "$1" ]
+echo "$2 is greater than $1"
+
+fi
